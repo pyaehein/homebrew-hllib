@@ -1,10 +1,8 @@
-require 'formula'
-
 class Hllib < Formula
-  homepage 'http://nemesis.thewavelength.net/index.php?p=35'
-  url 'http://nemesis.thewavelength.net/files/files/hllib246.zip'
-  sha56 "ed12bee31ec867a92e3daf4c52653ea2afb78c4ce69ca01a6f1588068ae5a1e9"
-  version '2.4.6'
+  homepage "http://nemesis.thewavelength.net/index.php?p=35"
+  url "http://nemesis.thewavelength.net/files/files/hllib246.zip"
+  sha256 "ed12bee31ec867a92e3daf4c52653ea2afb78c4ce69ca01a6f1588068ae5a1e9"
+  version "2.4.6"
 
   def install
     # Library
